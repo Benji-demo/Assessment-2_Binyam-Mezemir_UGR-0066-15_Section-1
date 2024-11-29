@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: #f4f4f4;
+    color: #333;   
+}
+
+/* Doing the header -- common */
+.header {
+    background: hsl(120, 11%, 15%);
+    padding: 40px;
+    padding-bottom: 0;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header a p{
+    margin-left: 18em;
+    text-indent:25% ;
+}
+
+header h1{
+    font-size: 4em;
+    text-indent:20% ;
+}
+
+header h1{
+    color: white;
+}
+
+header h1 span{
+    color:#d87919;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding:  40px 0 0 19%;
+    flex-wrap: wrap;
+    font-size:.8em ;
+}
+
+nav ul li{
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+nav ul li a{
+    color:#fbfbfb;
+    background-color: #76b70d;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+
+nav ul li a:hover, nav ul li.active a{
+    background-color: #d87919;
+}
+
+
+/* main */
+.date {
+    color: gray;
+    font-style: italic;
+    font-size: small;
+}
+
+h2{
+    color: #76b70d;
+    padding: 16px 0 0 0;
+}
+
+h3{
+    color: #76b70d;
+    padding: 10px;
+}
+
+.main {
+    display: flex;
+    padding: 30px 270px;
+}
+
+.main p{
+    font-size: small;
+    color: rgb(93, 92, 92);
+    line-height: 2em;
+}
+
+.main section article hgroup p{
+    font-weight: bold;
+    color: #454444;
+    padding: 20px 0;
+}
+
+.main section article img{
+    border:1px solid #9a9999;
+    padding: 2px;
+}
+
+.main a{
+    color: #76b70d;
+    font-size: small;
+}
+
+a.readmore-link{
+    color: #d87919;
+}
+
+div.main section{
+    display: flex;
+    width: 700px ;
+    flex-wrap: wrap;
+}
+
+div.main section article{
+    padding-right: 20px;
+    width: 350px;
+}
+
+/* Editing for About us page */
+div.main section.about-us-article article{
+    padding-right: 20px;
+    width: 700px;
+}
+
+
+/* Editing for contacts page */
+div.main section.contacts-section section.contact-form {
+    display: block;
+    width: 500px;
+}
+
+.contact-form ::placeholder{
+    font-size: small;
+}
+
+.contact-form h2, div.main section.contacts-section section.contact-form p{
+    padding: 8px 0;
+}
+
+.pad{
+    padding: 20px 0;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    background-color: #f8f8f8;
+    margin-bottom: 20px;
+}
+
+.contact-form textarea {
+    height: 200px;
+}
+
+
+.contact-form button {
+    background-color: #76b70d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.contact-form button:hover {
+    background-color: #d87919;
+}
+
+
+/* Doing the side bar -- common */
+.sidebar {
+    padding:10px 0 20px 40px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li{
+    padding: 10px 0 4px 0;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: small;
+    color: hsl(120, 11%, 15%);
+    padding:5px 0 2px 0  ;
+}
+
+.sidebar p {
+    font-size: small;
+    color: gray;
+    padding:1px 0 2px 0;
+}
+
+
+/* Doing the bottom -- common */
+.bottom{
+    display: flex;
+    text-align: left;
+    background-color: #131f00;
+    color: white;
+    padding:20px 16%;
+}
+
+.bottom p{
+    font-size: small;
+    color: white;
+    line-height: 1.5em;
+}
+
+
+.bottom h3{
+    font-size: 1.5em;
+}
+
+div.bottom-gallery{
+    width: 250px;
+}
+
+.bottom a{
+    color: #76b70d;
+    font-size: small;
+}
+
+div.bottom h3{
+    color: #f4f4f4;
+    padding: 10px;
+}
+
+.botton-about-image-description{
+    padding: 0 0 10px 0;
+    font-size: small;
+}
+
+.botton-about-image-description img{
+    float: left;
+    width: 70px; 
+    height: 70px;
+}
+
+.bottom-contact-span-bold{
+    font-weight: bold;
+}
+
+.bottom-gallery-image{
+    padding: 2px;
+}
+
+div.bottom-about{
+    padding-right: 40px;
+}
+
+.bottom-about-image {
+    padding: 2px;
+    float: left;
+    margin:8px 16px 4px 0;
+}
+
+/* Doing footer -- common*/
+footer{
+    background-color: #030104;
+    padding: 25px 120px;
+    color: #fbfbfb;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    border-top:1px solid #4b4a4a ;
+}
+
+footer ul {
+    display: flex;
+    padding-left: 150px;
+}
+
+footer ul li { 
+    list-style: none;
+    padding-left: 20px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #efe1e1;
+
+}
+
+footer a.footer-active, footer span a{
+    color: #76b70d;
+}
